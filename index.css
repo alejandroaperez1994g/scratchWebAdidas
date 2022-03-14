@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Fredoka", sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 /* Header Styles */
@@ -88,6 +88,11 @@
   display: flex;
   flex-flow: column wrap;
   gap: 10px;
+}
+
+.main_section a {
+  text-decoration: none;
+  color: white;
 }
 .main_section h2 {
   padding: 17px;
