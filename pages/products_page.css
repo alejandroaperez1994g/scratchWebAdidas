@@ -1,0 +1,208 @@
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.products-header-description {
+  text-justify: auto;
+}
+
+.products h3 {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+.products p {
+  color: #a4a4a4;
+}
+
+.products img {
+  height: 2rem;
+  cursor: pointer;
+}
+
+.products-inventory {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-cardImage {
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  height: 25vh;
+  width: 45vw;
+  align-items: flex-end;
+  justify-content: space-between;
+  /* position: relative; */
+}
+.product-cardImage img {
+  /* position: relative; */
+  margin-right: 0.5rem;
+}
+
+.product-cardImage p {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  background-color: white;
+}
+.product-cardImage:hover p {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+.product-cardTitle,
+.men_product-cardDescrip {
+  font-size: 0.9rem;
+}
+.mroduct-cardDescription {
+  color: #a4a4a4;
+}
+
+.products-paginator {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.2rem;
+  margin-top: 1rem;
+}
+.next-button {
+  padding: 0.2rem;
+}
+.next-button:hover {
+  text-decoration: underline;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+/* Men Products */
+.imgM1 {
+  background-image: url("https://source.unsplash.com/1600x901/?adidas shoes");
+}
+.imgM2 {
+  background-image: url("https://source.unsplash.com/1600x902/?adidas shoes");
+}
+.imgM3 {
+  background-image: url("https://source.unsplash.com/1600x903/?adidas shoes");
+}
+.imgM4 {
+  background-image: url("https://source.unsplash.com/1600x904/?adidas shoes");
+}
+.imgM5 {
+  background-image: url("https://source.unsplash.com/1600x905/?adidas shoes");
+}
+.imgM6 {
+  background-image: url("https://source.unsplash.com/1600x906/?adidas shoes");
+}
+.imgM7 {
+  background-image: url("https://source.unsplash.com/1600x907/?adidas shoes");
+}
+.imgM8 {
+  background-image: url("https://source.unsplash.com/1600x908/?adidas shoes");
+}
+.imgM9 {
+  background-image: url("https://source.unsplash.com/1600x909/?adidas shoes");
+}
+.imgM10 {
+  background-image: url("https://source.unsplash.com/1600x910/?adidas shoes");
+}
+.imgM11 {
+  background-image: url("https://source.unsplash.com/1600x912/?adidas shoes");
+}
+.imgM12 {
+  background-image: url("https://source.unsplash.com/1600x913/?adidas shoes");
+}
+/* Women Products */
+.imgW1 {
+  background-image: url("https://source.unsplash.com/1600x901/?woman adidas shoes");
+}
+.imgW2 {
+  background-image: url("https://source.unsplash.com/1600x902/?woman adidas shoes");
+}
+.imgW3 {
+  background-image: url("https://source.unsplash.com/1600x903/?woman adidas shoes");
+}
+.imgW4 {
+  background-image: url("https://source.unsplash.com/1600x904/?woman adidas shoes");
+}
+.imgW5 {
+  background-image: url("https://source.unsplash.com/1600x905/?woman adidas shoes");
+}
+.imgW6 {
+  background-image: url("https://source.unsplash.com/1600x906/?woman adidas shoes");
+}
+.imgW7 {
+  background-image: url("https://source.unsplash.com/1600x907/?woman adidas shoes");
+}
+.imgW8 {
+  background-image: url("https://source.unsplash.com/1600x908/?woman adidas shoes");
+}
+.imgW9 {
+  background-image: url("https://source.unsplash.com/1600x909/?woman adidas shoes");
+}
+.imgW10 {
+  background-image: url("https://source.unsplash.com/1600x910/?woman adidas shoes");
+}
+.imgW11 {
+  background-image: url("https://source.unsplash.com/1600x912/?woman adidas shoes");
+}
+.imgW12 {
+  background-image: url("https://source.unsplash.com/1600x913/?woman adidas shoes");
+}
+
+/* Kids Products */
+.imgK1 {
+  background-image: url("https://source.unsplash.com/1600x901/?kids shoes");
+}
+.imgK2 {
+  background-image: url("https://source.unsplash.com/1600x902/?kids shoes");
+}
+.imgK3 {
+  background-image: url("https://source.unsplash.com/1600x903/?kids shoes");
+}
+.imgK4 {
+  background-image: url("https://source.unsplash.com/1600x904/?kids shoes");
+}
+.imgK5 {
+  background-image: url("https://source.unsplash.com/1600x905/?kids shoes");
+}
+.imgK6 {
+  background-image: url("https://source.unsplash.com/1600x906/?kids shoes");
+}
+.imgK7 {
+  background-image: url("https://source.unsplash.com/1600x907/?kids shoes");
+}
+.imgK8 {
+  background-image: url("https://source.unsplash.com/1600x908/?kids shoes");
+}
+.imgK9 {
+  background-image: url("https://source.unsplash.com/1600x909/?kids shoes");
+}
+.imgK10 {
+  background-image: url("https://source.unsplash.com/1600x910/?kids shoes");
+}
+.imgK11 {
+  background-image: url("https://source.unsplash.com/1600x912/?kids shoes");
+}
+.imgK12 {
+  background-image: url("https://source.unsplash.com/1600x913/?kids shoes");
+}
