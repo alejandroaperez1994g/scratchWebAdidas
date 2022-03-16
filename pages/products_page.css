@@ -94,6 +94,62 @@
   background-color: black;
   cursor: pointer;
 }
+.main_section h2 {
+  text-align: center;
+}
+.main_section-faq-top {
+  background-image: url("https://source.unsplash.com/HITtu6zs9Sg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  height: 35vh;
+  width: 95vw;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+}
+.main_section-faq-top h3 {
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.main_section-faq-center-left {
+  display: none;
+}
+
+.main_section-faq-center-title {
+  display: flex;
+  align-items: center;
+}
+.main_section-faq-center-right-q {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.main_section-faq-center-footer {
+  display: flex;
+  margin-top: 0.5rem;
+  align-items: center;
+  color: red;
+  cursor: pointer;
+}
+
+.main_section-faq-center-right-q p {
+  text-align: justify;
+}
+
+.main_section-faq-center-title p {
+  margin-left: 1rem;
+  font-weight: 900;
+}
+
+.footer_section-extra a {
+  text-decoration: none;
+  color: white;
+}
+
 /* Men Products */
 .imgM1 {
   background-image: url("https://source.unsplash.com/1600x901/?adidas shoes");
@@ -205,4 +261,149 @@
 }
 .imgK12 {
   background-image: url("https://source.unsplash.com/1600x913/?kids shoes");
+}
+/* Accesories Products */
+.imgA1 {
+  background-image: url("https://source.unsplash.com/1600x901/?water bottles");
+}
+.imgA2 {
+  background-image: url("https://source.unsplash.com/1600x902/?water bottles");
+}
+.imgA3 {
+  background-image: url("https://source.unsplash.com/1600x903/?water bottles");
+}
+.imgA4 {
+  background-image: url("https://source.unsplash.com/1600x904/?water bottles");
+}
+.imgA5 {
+  background-image: url("https://source.unsplash.com/1600x905/?water bottles");
+}
+.imgA6 {
+  background-image: url("https://source.unsplash.com/1600x906/?caps");
+}
+.imgA7 {
+  background-image: url("https://source.unsplash.com/1600x907/?caps");
+}
+.imgA8 {
+  background-image: url("https://source.unsplash.com/1600x908/?caps");
+}
+.imgA9 {
+  background-image: url("https://source.unsplash.com/1600x909/?backpacks accesories");
+}
+.imgA10 {
+  background-image: url("https://source.unsplash.com/1600x910/?backpacks accesories");
+}
+.imgA11 {
+  background-image: url("https://source.unsplash.com/1600x912/?backpacks accesories");
+}
+.imgA12 {
+  background-image: url("https://source.unsplash.com/1600x913/?accesories");
+}
+
+.main_section-top-navigation {
+  display: none;
+}
+.products-filter-button h4 {
+  display: none;
+}
+
+.main_section-product-header {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+}
+
+.main_section-main-product {
+  background-image: url("https://source.unsplash.com/1600x913/?accesories");
+  /* width: 95vw;
+  height: 45vh; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1024px) {
+  .products {
+    width: 92.5vw;
+    gap: 1rem;
+  }
+  .product-cardImage {
+    height: 25vh;
+    width: 15vw;
+  }
+
+  .products-filter-button {
+    display: flex;
+    align-items: center;
+    padding: 0.3rem;
+    border: solid black;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .products-filter-button h4 {
+    display: block;
+    margin-right: 1rem;
+  }
+
+  .products-filter-button:hover {
+    filter: invert(100%);
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .products-inventory {
+    width: 92.5vw;
+    gap: 0.4rem;
+  }
+  .products-header {
+    display: flex;
+    align-items: flex-end;
+  }
+  .products-header p {
+    margin-left: 1rem;
+  }
+  .main_section-top-navigation {
+    display: block;
+    display: flex;
+    align-items: center;
+  }
+  .main_section-top-navigation-text {
+    color: black;
+    margin-left: 0.5rem;
+    margin-right: 0;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .main_section-top-navigation-text:hover {
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+  }
+
+  .main_section-faq-center {
+    display: flex;
+  }
+
+  .main_section-faq-center-right-card {
+    display: flex;
+  }
+  .main_section-faq-center-title {
+    flex: 1;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-right: 1px solid black;
+  }
+  .main_section-faq-center-title p {
+    font-weight: 900;
+  }
+  .main_section-faq-center-content {
+    flex: 2;
+    padding: 1rem;
+  }
+  .main_section-faq-top h3 {
+    font-size: 2rem;
+  }
+  .faq-title {
+    font-size: 3rem;
+  }
 }
